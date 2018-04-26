@@ -112,7 +112,7 @@ This lets us use additional features such as local state and lifecycle hooks.
 
 We will move the `date` from props to state in three steps:
 
-1) Replace `this.props.date` with `this.state.date` in the `render()` method:
+1) Replace `props.date` with `this.state.date` in the `render()` method:
 
 ```js{6}
 class Clock extends React.Component {
